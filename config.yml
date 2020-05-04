@@ -1,0 +1,14 @@
+location: Žilina
+
+logging:
+  level: INFO
+  loggers:
+    sk.fri.uniza: DEBUG
+
+# the only required property is resourcePackage, for more config options see below
+swagger:
+  resourcePackage: sk.fri.uniza.resources
+
+#  # Redirects SQL logs to a separate file
+#  org.hibernate.SQL:
+#      level: DEBUG
